@@ -1,0 +1,20 @@
+﻿@page "/"
+@using Models
+@using Util
+@inject PokeClient client
+
+<PageTitle>Home</PageTitle>
+
+<h1>@pokemon.name</h1>
+
+@code
+{
+    Pokemon pokemon = new Pokemon();
+
+    protected override async Task OnInitializedAsync()
+    {
+        pokemon = await client.GetPokemon("1");
+    }
+}
+
+
