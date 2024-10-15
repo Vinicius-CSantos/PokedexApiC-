@@ -5,16 +5,39 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>@pokemon.name</h1>
+<div class="container">
+    <img src="/img/pokemon-logo.png" alt="Pokemon Logo" class="app-logo" />
+    <div class="pokemon-row">
+        @foreach (var pokemon in pokemonList)
+        {
+            <a href="/pokemon/@pokemon.id">
+                <div class="pokemon-card">
+                    <img src="@pokemon.sprites.front_default" alt="Pokemon Sprite" />
+                    <h4 class="pokemon-name">@pokemon.name</h4>
+                    <div class="type-row">
+                        @foreach (var type in pokemon.types)
+                        {
+                            <span class="type-badge" style="background-color:@PokeColor.GetTypeColor(@type.type.name)">@type.type.name</span>
+                        }
+                    </div>
+                </div>
+            </a>
+        }
+
+    </div>
+</div>
 
 @code
 {
-    Pokemon pokemon = new Pokemon();
+
+    List<Pokemon> pokemonList = new List<Pokemon>();
 
     protected override async Task OnInitializedAsync()
     {
-        pokemon = await client.GetPokemon("1");
+        for (int i = 1; i < 1015; i++)
+        {
+            pokemonList.Add(await client.GetPokemon(i.ToString()));
+            StateHasChanged();
+        }
     }
 }
-
-

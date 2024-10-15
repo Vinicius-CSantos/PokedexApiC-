@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DexPoke")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3357616cd4e16ff7cb8ba1a42c8f1f8ee8d5820")]
 [assembly: System.Reflection.AssemblyProductAttribute("DexPoke")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DexPoke")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

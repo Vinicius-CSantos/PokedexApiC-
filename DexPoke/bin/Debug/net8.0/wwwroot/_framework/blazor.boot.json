@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DexPoke",
   "resources": {
-    "hash": "sha256-8ptSb3hbtg4daJww2fShOJv7XDMwigVNJwbtYWYkI7I=",
+    "hash": "sha256-aXkxD1jJRcf00VoKzGu4XqTekLIQX4y8jxBS0zRPsOU=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.9h5c1n0c7k.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "DexPoke.wasm": "sha256-hGqYFpRHiERQfp0QLrw5NNG8EbiNXRGq8klT9S0LI98="
+      "DexPoke.wasm": "sha256-t2XvsvyGcOzzfmFN6iXAcFy3AZ7Ufbaa0Znr5MdGyhY="
     },
     "pdb": {
-      "DexPoke.pdb": "sha256-/RO/0PxO89n9CLy4mBCVtKfllQqDVYHmA1TOUJmQpl0="
+      "DexPoke.pdb": "sha256-+aDALS1cSU0q+5dAl1g3DFz5Y/h6/MAZhCxqRiFLOHI="
     }
   },
   "cacheBootResources": true,

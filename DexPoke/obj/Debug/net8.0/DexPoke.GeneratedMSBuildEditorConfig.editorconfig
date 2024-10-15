@@ -26,26 +26,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vinic/source/repos/DexPoke/DexPoke/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/vinic/source/repos/DexPoke/DexPoke/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/vinic/source/repos/DexPoke/DexPoke/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/vinic/source/repos/DexPoke/DexPoke/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vinic/source/repos/DexPoke/DexPoke/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-yq98mu69ql
+[C:/Users/vinic/source/repos/DexPoke/DexPoke/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-j2c4jjcrah
 
-[C:/Users/vinic/source/repos/DexPoke/DexPoke/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-xn4ihcbect
+[C:/Users/vinic/source/repos/DexPoke/DexPoke/Pages/PokemonCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9rZW1vbkNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-l87i8rv33p
